@@ -93,6 +93,16 @@ section button:hover {
     color: #222831; /* Cor do texto */
 }
 
+.link {
+    text-align: center;
+    color: rgb(93, 93, 121);
+}
+
+.autor {
+    color: #45474B; /* Cor do texto */
+    margin-top: 0px;
+}
+
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     /* text-decoration: none; Remove o sublinhado padrão dos links */
@@ -106,8 +116,8 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
+    text-align: justify;
 }
 
 /* Estiliza o rodapé da página */
