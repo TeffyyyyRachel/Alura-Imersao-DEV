@@ -91,6 +91,7 @@ section button:hover {
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+    margin-top: 0px;
 }
 
 .infos {
@@ -102,7 +103,6 @@ section button:hover {
 
 .link {
     text-align: center;
-    color: rgb(93, 93, 121);
 }
 
 .autor {
