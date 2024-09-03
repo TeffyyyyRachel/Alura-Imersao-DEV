@@ -14,6 +14,12 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+img {
+    height: 200px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
@@ -71,6 +77,9 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
@@ -86,7 +95,7 @@ section button:hover {
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    /* text-decoration: none; Remove o sublinhado padrão dos links */
     color: #30475E; /* Cor do texto dos links */
 }
 
