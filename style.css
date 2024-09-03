@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    height: 200px;
+    width: 170px;
     border-radius: 10px;
     margin: 15px;
 }
@@ -93,14 +93,22 @@ section button:hover {
     color: #222831; /* Cor do texto */
 }
 
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .link {
     text-align: center;
     color: rgb(93, 93, 121);
 }
 
 .autor {
-    color: #45474B; /* Cor do texto */
-    margin-top: 0px;
+    color: #64686e; /* Cor do texto */
+    font-style: italic;
+    margin: 0px;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
