@@ -3,6 +3,7 @@ PADRÃO PARA CRIAR OBJETOS
 
 {
     capa: "imagens/capas_manga/",
+    alt: "",
     titulo: "",
     descricao: "",
     escritor: "",
@@ -15,6 +16,7 @@ PADRÃO PARA CRIAR OBJETOS
 let mangas = [
     {
         capa: "imagens/capas_manga/kimetsu_no_yaiba.jpg",
+        alt: "Capa do mangá de Kimetsu no Yaiba, oitavo volume",
         titulo: "Kimetsu no Yaiba",
         descricao: "No Japão da era Taisho, Tanjiro Kamado é um menino de bom coração que ganha a vida vendendo carvão. No entanto, sua vida pacífica é destruída quando um Oni mata sua família inteira. Sua irmã mais nova, Nezuko, é a única sobrevivente, mas ela mesma se transformou em um Oni! Tanjiro parte em uma jornada perigosa para encontrar uma maneira de recuperar a humanidade de sua irmã e destruir o Oni que arruinou sua vida.",
         escritor: "Koyoharu Gotouge",
