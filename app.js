@@ -5,8 +5,9 @@ var escritor = document.querySelector('#escritor')
 var desenhista = document.querySelector('#desenhista')
 var link = document.querySelector('#kimetsu-link')
 
-var indice = 1
+var botao = document.querySelector('#botao')
 
+var indice = 0
 imagem.setAttribute("src",mangas[indice].capa)
 imagem.setAttribute("alt",mangas[indice].alt)
 titulo.innerHTML = mangas[indice].titulo
