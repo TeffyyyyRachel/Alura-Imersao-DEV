@@ -31,7 +31,7 @@ let mangas = [
         descricao: "Morando com seu avô, Yuji Itadori é um estudante do ensino médio que vive em uma Sendai atormentada por espíritos amaldiçoados, monstros criados dos sentimentos negativos da humanidade. Guiado pelo medo de ser morto por uma maldição que o atacava e aos seus amigos, ele engole um dedo amaldiçoado na esperança de ganhar poderes para protegê-los, tornando-se o novo anfitrião de Sukuna, uma outra maldição entitulada de <i>O rei das maldições</i>.",
         escritor: "Gege Akutami",
         desenhista: "Gege Akutami",
-        link: ""
+        link: "https://pt.wikipedia.org/wiki/Jujutsu_Kaisen"
     },
     {
         titulo: "Death Note",
