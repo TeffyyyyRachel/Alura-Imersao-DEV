@@ -41,5 +41,3 @@ let mangas = [
         link: "https://pt.wikipedia.org/wiki/Death_Note"
     },  
 ];
-
-console.log(mangas[3].desenhista,", ",mangas[3].escritor)
