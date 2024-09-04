@@ -12,6 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    overflow: hidden;
 }
 
 img {
@@ -85,7 +86,7 @@ main > h2 {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 50rem; /* Largura máxima da caixa de resultados */
+    width: 60vw; /* Largura máxima da caixa de resultados */
     height: 72vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 0; /* Espaçamento acima da caixa de resultados */
@@ -185,7 +186,7 @@ footer {
 }
 
 /* Responsividade para celulares */
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
@@ -200,7 +201,6 @@ footer {
         padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
         font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
     }
-
     .resultados-pesquisa {
         width: 90%; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
