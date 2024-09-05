@@ -1,19 +1,29 @@
-var imagem = document.querySelector('#imagem-capa')
-var titulo = document.querySelector('#titulo')
-var descricao = document.querySelector('#descricao')
-var escritor = document.querySelector('#escritor')
-var desenhista = document.querySelector('#desenhista')
-var link = document.querySelector('#kimetsu-link')
+let section = document.getElementById("resultados-pesquisa");
+console.log(section);
 
-var botao = document.querySelector('#botao')
+let resultados = "";
 
-var indice = 0
-imagem.setAttribute("src",mangas[indice].capa)
-imagem.setAttribute("alt",mangas[indice].alt)
-titulo.innerHTML = mangas[indice].titulo
-descricao.innerHTML = mangas[indice].descricao
-escritor.innerHTML += mangas[indice].escritor
-desenhista.innerHTML += mangas[indice].desenhista
-link.setAttribute("href",mangas[indice].link)
+for (let dado of mangas) {
+    resultados += `
+    <div class="item-resultado">
+        <div>
+            <img src="${dado.capa}" alt="${dado.alt}">
+        </div>
 
-//console.log(mangas[0].capa)
+        <div>
+            <h2>${dado.titulo}</h2>
+
+            <p class="descricao-meta">${dado.descricao}</p>
+            <div class="infos">
+                <div>
+                    <p class="autor">Escrita por: ${dado.escritor}</p>
+                    <p class="autor">Desenhada por: ${dado.desenhista}</p>
+                </div>
+                <p class="link"><a href="${dado.link}" target="_blank">Mais informações sobre a obra</a></p>
+            </div>
+        </div>
+    </div>
+    `
+}
+
+section.innerHTML = resultados

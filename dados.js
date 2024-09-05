@@ -1,4 +1,5 @@
 /*
+
 PADRÃO PARA CRIAR OBJETOS
 
 {

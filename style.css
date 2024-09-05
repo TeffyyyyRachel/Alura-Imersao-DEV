@@ -154,7 +154,7 @@ main > h2 {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    background: linear-gradient(0deg, rgba(235, 156, 91, 0.555), rgba(187, 73, 73, 0)); /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
