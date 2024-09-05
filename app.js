@@ -25,6 +25,8 @@ botao.addEventListener("click", () => {
             </div>
         </div>
     `
+    console.log(dado);
+    
 }
 
 section.innerHTML = resultados
